@@ -22,7 +22,7 @@ const Navbar = () => {
 <nav className="bg-opacity-0 border-b w-full md:static md:border-none font-jost py-4 ">
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                    <a href="#0">
+                    <a href="../">
                         <img
                             src={Logo}
                             width={180}

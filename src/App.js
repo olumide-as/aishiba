@@ -8,7 +8,7 @@ import { Navbar, Footer } from './Components';
 
 const App = () => {
   return (
-    <div className="App bg-gradient-to-b from-orange-950 to-neutral-950 ">
+    <div className="App bg-gradient-to-b from-orange-950 to-neutral-950">
     <BrowserRouter>
       <Navbar />
       <Routes>

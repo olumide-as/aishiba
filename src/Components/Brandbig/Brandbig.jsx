@@ -5,7 +5,7 @@ const Brandbig = ({imgUrl, brand}) => {
     <div>
      
         <div className="flex items-center flex-col gap-x-2 ">
-            <img src={imgUrl} className="w-32 rounded-full" alt='brand'/>
+            <img src={imgUrl} className="w-48 m-2 rounded-full" alt='brand'/>
             <div>
                 <span className="block text-slate-50 font-jost">{brand}</span>
             </div>

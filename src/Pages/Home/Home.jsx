@@ -4,7 +4,7 @@ import {
   bgimage,
   bitkan,
   camelot,
-  iBank,
+  lbank,
   mexc,
   star,
   tick,
@@ -67,7 +67,7 @@ const Home = () => {
       <section className=" m-4 p-4 ">
         <div className="max-w-screen-xl mx-auto text-slate-50 p-4 lg:w-6/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
           <Tabs.Group className="text-left font-jost ">
-            <Tabs.Item active={true} title="NFT Claim">
+            <Tabs.Item active={true} title="NFT Claim" className='text-slate-50'>
               <h5 className="font-bold text-xl pb-4">
                 Claim Airdrop For Your NFT
               </h5>
@@ -239,14 +239,14 @@ const Home = () => {
               possesses powerful deflationary attributes and offers users the
               opportunity to generate passive income via staking, thereby
               establishing enduring value for the token.
-            </p>
+            </p><br></br>
 
             <p className="mt-2 font-bold text-xl text-orange-500">
-              Total Supply : 210,000,000,000,000,000 tokens<br></br>
-              Token Symbol : $SHIBAI<br></br>
+              Total Supply : 210,000,000,000,000,000 tokens<br></br><br></br>
+              Token Symbol : $SHIBAI<br></br><br></br>
               Token Allocation :<br></br>
               90% distributed as airdrop to eligible wallets<br></br>
-              10% DEX Liquidity and CEX Listing{" "}
+              10% DEX Liquidity and CEX Listing<br></br><br></br>
             </p>
 
             <p className="mt-2 text-slate-50">
@@ -273,7 +273,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <Timeline className="m-8 xl:m-12 p-8 xl:p-12">
+          <Timeline className="m-4 xl:m-12 xl:p-12">
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
@@ -564,35 +564,35 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Brandbig imgUrl={camelot} brand="Camelot" />
+              <Brandbig imgUrl={camelot} brand="" />
             </a>
             <a
               href="https://m.mexc.com/trade/spot-kline#SHIBAI_USDT"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Brandbig imgUrl={mexc} brand="mexc" />
+              <Brandbig imgUrl={mexc} brand="" />
             </a>
             <a
               href="https://www.lbank.info/exchange/shibai/usdt/#alts"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Brandbig imgUrl={iBank} brand="iBank" />
+              <Brandbig imgUrl={lbank} brand="" />
             </a>
             <a
               href="https://bitkan.com/trade/SHIBAI-USDT"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Brandbig imgUrl={bitkan} brand="Bitkan" />
+              <Brandbig imgUrl={bitkan} brand="" />
             </a>
             <a
               href="https://m.ascendex.com/en/cashtrade-spottrading/usd/shibai"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Brandbig imgUrl={ascendex} brand="Ascendex" />
+              <Brandbig imgUrl={ascendex} brand="" />
             </a>
           </div>
         </div>
