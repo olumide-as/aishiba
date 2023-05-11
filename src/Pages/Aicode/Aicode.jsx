@@ -7,7 +7,7 @@ const Aicode = () => {
     <div>
       {/*F.A.Qs*/}
       <section className="lg:mt-12 lg:mx-24 mt-12 py-14 pb-12 px-4 md:px-8">
-        <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+        <div className="max-w-screen-xl mx-auto  md:px-8">
           <div className="relative max-w-xl mx-auto sm:text-center">
             <h2 className="text-slate-50 text-4xl font-semibold sm:text-6xl font-righteous">
               AICODE
