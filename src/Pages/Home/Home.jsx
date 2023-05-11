@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div>
       {/* Landing */}
-      <section className="lg:mt-12 lg:mx-24 mt-12 max-w-screen-xl pb-12 px-4 items-center justify-center lg:flex md:px-8">
+      <section className="lg:mt-12 lg:mx-24 mt-12 max-w-screen-xl pb-12 px-4 items-center justify-center lg:flex md:px-8 " > 
         <div className="space-y-4 flex-1 sm:text-center lg:text-left">
           <h1 className="text-white font-bold text-6xl xl:text-8xl font-righteous">
             Meet
@@ -67,7 +67,11 @@ const Home = () => {
       <section className=" m-4 p-4 " id="airdrop">
         <div className="max-w-screen-xl mx-auto text-slate-50 p-4 lg:w-6/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
           <Tabs.Group className="text-left font-jost ">
-            <Tabs.Item active={true} title="NFT Claim" className='text-slate-50'>
+            <Tabs.Item
+              active={true}
+              title="NFT Claim"
+              className="text-slate-50"
+            >
               <h5 className="font-bold text-xl pb-4">
                 Claim Airdrop For Your NFT
               </h5>
@@ -225,7 +229,10 @@ const Home = () => {
       </section>
 
       {/*Tokenomics*/}
-      <section className="lg:mt-12 lg:mx-24 mt-12 py-14 pb-12 px-4 md:px-8" id="tokenomics">
+      <section
+        className="lg:mt-12 lg:mx-24 mt-12 py-14 pb-12 px-4 md:px-8"
+        id="tokenomics"
+      >
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
           <div className="relative max-w-xl mx-auto sm:text-center">
             <h2 className="text-slate-50 text-4xl font-semibold sm:text-6xl font-righteous">
@@ -239,14 +246,18 @@ const Home = () => {
               possesses powerful deflationary attributes and offers users the
               opportunity to generate passive income via staking, thereby
               establishing enduring value for the token.
-            </p><br></br>
+            </p>
+            <br></br>
 
             <p className="mt-2 font-bold text-xl text-orange-500">
-              Total Supply : 210,000,000,000,000,000 tokens<br></br><br></br>
-              Token Symbol : $SHIBAI<br></br><br></br>
+              Total Supply : 210,000,000,000,000,000 tokens<br></br>
+              <br></br>
+              Token Symbol : $SHIBAI<br></br>
+              <br></br>
               Token Allocation :<br></br>
               90% distributed as airdrop to eligible wallets<br></br>
-              10% DEX Liquidity and CEX Listing<br></br><br></br>
+              10% DEX Liquidity and CEX Listing<br></br>
+              <br></br>
             </p>
 
             <p className="mt-2 text-slate-50">
@@ -257,8 +268,9 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-orange-500 hover:underline dark:text-orange-600"
-              >whitepaper</a>
-              
+              >
+                whitepaper
+              </a>
             </p>
           </div>
         </div>
@@ -597,6 +609,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };

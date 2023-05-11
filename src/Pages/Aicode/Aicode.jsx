@@ -276,16 +276,31 @@ const Aicode = () => {
                   <p className="text-slate-50 p-4 text-2xl text-left">Rules</p>
 
                   <p className="text-slate-50 p-4 text-left">
-                  1. You are eligible to take part in AICODE's rewards distribution if you make an AIDOGE purchase on Camelot valued more than 500$ in a single transaction.
+                    1. You are eligible to take part in AICODE's rewards
+                    distribution if you make an AIDOGE purchase on Camelot
+                    valued more than 500$ in a single transaction.
                     <br></br>
-                    2. Today's estimated reward amount is constantly changing, and it is related to how much AIDOGE you purchase and how much the entire transaction amount for purchasing AIDOGE is.<br></br>
-                    3. The AIDOGE you trade can only be used to share the AICODE output on the same day.<br></br>
-                    4. The oracle machine is used to calculate the transaction amount in trading mining, and the price is constantly fluctuating. When purchasing AIDOGE, please ensure that you reserve an appropriate amount of space to prevent the transaction amount from falling below the required standard. We recommend purchasing more than $600 to ensure a successful transaction.<br></br>
-                    5. Any transaction amount exceeding $500 will be considered as a valid purchase amount.<br></br>
-                    6. Only purchases made in Camelot v2 ETH/AIDOGE will be counted in trading mining. Please refrain from using aggregators and Camelot V3, as these may cause the transaction being split, resulting in a transaction amount that does not meet the required standard.
+                    2. Today's estimated reward amount is constantly changing,
+                    and it is related to how much AIDOGE you purchase and how
+                    much the entire transaction amount for purchasing AIDOGE is.
+                    <br></br>
+                    3. The AIDOGE you trade can only be used to share the AICODE
+                    output on the same day.<br></br>
+                    4. The oracle machine is used to calculate the transaction
+                    amount in trading mining, and the price is constantly
+                    fluctuating. When purchasing AIDOGE, please ensure that you
+                    reserve an appropriate amount of space to prevent the
+                    transaction amount from falling below the required standard.
+                    We recommend purchasing more than $600 to ensure a
+                    successful transaction.<br></br>
+                    5. Any transaction amount exceeding $500 will be considered
+                    as a valid purchase amount.<br></br>
+                    6. Only purchases made in Camelot v2 ETH/AIDOGE will be
+                    counted in trading mining. Please refrain from using
+                    aggregators and Camelot V3, as these may cause the
+                    transaction being split, resulting in a transaction amount
+                    that does not meet the required standard.
                   </p>
-
-                  
                 </div>
               </Tabs.Item>
             </Tabs.Group>
