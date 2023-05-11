@@ -1,4 +1,5 @@
 export {default as Logo} from "./logo.svg";
+export {default as Icon} from "./logo.png";
 export {default as bgimage} from "./header-bg.png";
 export {default as star} from "./star.svg";
 export {default as calendar} from "./calendar.svg";
@@ -12,3 +13,5 @@ export {default as dextools} from "./dextools.svg";
 export {default as tick} from "./tick.svg";
 export {default as lbank} from "./lbank.svg";
 export {default as starbg} from "./starbg.svg";
+export {default as arb} from "./arb.png";
+export {default as aicode} from "./AICODE.webp";

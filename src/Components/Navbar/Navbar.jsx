@@ -8,11 +8,11 @@ const Navbar = () => {
   const [state, setState] = useState(false)
 
   const navigation = [
-    { title: "Home", path: "/" },
-    { title: "Airdrop", path: "/airdrop" },
-    { title: "Staking", path: "/staking" },
-    { title: "Earn", path: "/earn" },
-    { title: "AiCode", path: "/aicode" },
+    { title: "Home", path: "../" },
+    { title: "Airdrop", path: "../#airdrop" },
+    { title: "Tokenomics", path: "../#tokenomics" },
+    { title: "Earn", path: "../earn" },
+    { title: "AiCode", path: "../aicode" },
 ]
 
 

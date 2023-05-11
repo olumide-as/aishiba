@@ -11,13 +11,17 @@ const footerNavs = [
       name: 'Whitepaper  '
   },
   {
-      href: '/earn',
+      href: '../earn',
       name: 'Earn '
   },
   {
-      href: '/aicode',
+      href: '../aicode',
       name: 'AiCode'
   },
+  {
+    href: 'https://aishiba.gitbook.io/aishiba-1/others/disclosures',
+    name: 'Terms and Conditons'
+},
 ]
 
 const Footer = () => {

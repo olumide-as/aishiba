@@ -64,7 +64,7 @@ const Home = () => {
       </section>
 
       {/* Claim */}
-      <section className=" m-4 p-4 ">
+      <section className=" m-4 p-4 " id="airdrop">
         <div className="max-w-screen-xl mx-auto text-slate-50 p-4 lg:w-6/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
           <Tabs.Group className="text-left font-jost ">
             <Tabs.Item active={true} title="NFT Claim" className='text-slate-50'>
@@ -225,7 +225,7 @@ const Home = () => {
       </section>
 
       {/*Tokenomics*/}
-      <section className="lg:mt-12 lg:mx-24 mt-12 py-14 pb-12 px-4 md:px-8">
+      <section className="lg:mt-12 lg:mx-24 mt-12 py-14 pb-12 px-4 md:px-8" id="tokenomics">
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
           <div className="relative max-w-xl mx-auto sm:text-center">
             <h2 className="text-slate-50 text-4xl font-semibold sm:text-6xl font-righteous">
@@ -458,7 +458,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <Accordion className="p-4 xl:p-12 mx-4 my-12 xl:m-12 border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
+          <Accordion className="p-4 xl:p-12  my-12 xl:m-12 border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
             <Accordion.Panel>
               <Accordion.Title className="text-slate-50 focus:text-orange-500 hover:text-orange-500 font-jost">
                 What is AiShiba?
