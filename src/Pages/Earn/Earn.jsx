@@ -24,7 +24,6 @@ const Earn = () => {
 
           <Tabs.Group
             aria-label="Full width tabs"
-            style="default"
             className="font-jost py-8 "
           >
             <Tabs.Item title="NFT Staking">

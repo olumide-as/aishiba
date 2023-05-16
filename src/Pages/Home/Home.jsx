@@ -66,7 +66,7 @@ const Home = () => {
       {/* Claim */}
       <section className=" m-4 p-4 " id="airdrop">
         <div className="max-w-screen-xl mx-auto text-slate-50 font-jost p-4 lg:w-6/12 rounded-2xl border text-left border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
-          <Tabs.Group aria-label="Full width tabs" style="default">
+          <Tabs.Group aria-label="Full width tabs" >
             <Tabs.Item active={true} title="NFT Claim">
               <h5 className="font-bold text-xl pb-4">
                 Claim Airdrop For Your NFT

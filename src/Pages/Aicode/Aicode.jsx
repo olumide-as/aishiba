@@ -17,7 +17,6 @@ const Aicode = () => {
           <div className="my-24">
             <Tabs.Group
               aria-label="Full width tabs"
-              style="default"
               className="font-jost  "
             >
               <Tabs.Item title="Burning Mining" class="text-orange-500 text-lg">
