@@ -27,12 +27,12 @@ const Earn = () => {
             className="font-jost py-8 "
           >
             <Tabs.Item title="NFT Staking">
-              <div className="p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
+              <div className="p-2 md:p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
                 <div className="py-8 border-b border-orange-500 text-slate-50 text-3xl">
                   <p>$SHIBAI NFT Stake</p>
                 </div>
 
-                <div className="p-8 border-b border-orange-500 text-center">
+                <div className="py-8 border-b border-orange-500 text-center">
                   <p className="py-4 ">Nothing to deposit here</p>
                   <a
                     href="#0"
@@ -81,12 +81,12 @@ const Earn = () => {
             </Tabs.Item>
 
             <Tabs.Item title="Tokens Staking" className="text-orange-500">
-              <div className="p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
+              <div className="p-2 md:p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
                 <div className="py-8 border-b border-orange-500 text-slate-50 text-3xl">
                   <p>$SHIBAI Stake</p>
                 </div>
 
-                <div className="p-2 border-b border-orange-500 text-center">
+                <div className="py-8 border-b border-orange-500 text-center">
                   <p className="py-4 ">Connect your wallet first</p>
 
                   <div className="flex flex-col md:flex-row justify-center">
@@ -211,7 +211,7 @@ const Earn = () => {
                   </div>
                 </div>
 
-                <div className="p-8 flex flex-col md:flex-row flex-wrap  justify-around border-b border-orange-500">
+                <div className="py-8 flex flex-col md:flex-row flex-wrap  justify-around border-b border-orange-500">
                   <div className="py-4 basis-1/3">
                     <p className="text-slate-50"> Connect your wallet first</p>
                     <p className="text-orange-500 font-bold text-lg">
@@ -247,7 +247,7 @@ const Earn = () => {
             </Tabs.Item>
 
             <Tabs.Item title="LP Staking" className="text-orange-500">
-              <div className="p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
+              <div className="p-2 md:p-8 text-slate-50 text-left max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
                 <div className="py-8 border-b border-orange-500 text-slate-50 text-3xl">
                   <p>$SHIBAI LP Stake</p>
                 </div>
