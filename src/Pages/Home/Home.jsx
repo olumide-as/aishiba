@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div>
       {/* Landing */}
-      <section className="lg:mt-12 lg:mx-24 mt-12 max-w-screen-xl pb-12 px-4 items-center justify-center lg:flex md:px-8 " > 
+      <section className="lg:mt-12 lg:mx-24 mt-12 max-w-screen-xl pb-12 px-4 items-center justify-center lg:flex md:px-8 ">
         <div className="space-y-4 flex-1 sm:text-center lg:text-left">
           <h1 className="text-white font-bold text-6xl xl:text-8xl font-righteous">
             Meet
@@ -65,13 +65,9 @@ const Home = () => {
 
       {/* Claim */}
       <section className=" m-4 p-4 " id="airdrop">
-        <div className="max-w-screen-xl mx-auto text-slate-50 p-4 lg:w-6/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
-          <Tabs.Group className="text-left font-jost ">
-            <Tabs.Item
-              active={true}
-              title="NFT Claim"
-              className="text-slate-50"
-            >
+        <div className="max-w-screen-xl mx-auto text-slate-50 font-jost p-4 lg:w-6/12 rounded-2xl border text-left border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
+          <Tabs.Group aria-label="Full width tabs" style="default">
+            <Tabs.Item active={true} title="NFT Claim">
               <h5 className="font-bold text-xl pb-4">
                 Claim Airdrop For Your NFT
               </h5>
@@ -289,9 +285,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 1: Pre-Launch
                 </Timeline.Title>
@@ -321,9 +315,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 2: Token Creation and Distribution
                 </Timeline.Title>
@@ -348,9 +340,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 3: Initial Exchange Listing
                 </Timeline.Title>
@@ -373,9 +363,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 4: Community Building and Growth
                 </Timeline.Title>
@@ -401,9 +389,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 5: Project Expansion
                 </Timeline.Title>
@@ -431,9 +417,7 @@ const Home = () => {
             <Timeline.Item className="text-left">
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time className="text-slate-50 font-jost">
-                  .
-                </Timeline.Time>
+                <Timeline.Time className="text-slate-50 font-jost"></Timeline.Time>
                 <Timeline.Title className="text-orange-500 font-righteous font-normal text-2xl xl:text-4xl p-1">
                   Phase 6: Long-Term Sustainability
                 </Timeline.Title>
@@ -609,7 +593,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };

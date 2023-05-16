@@ -15,8 +15,12 @@ const Aicode = () => {
           </div>
 
           <div className="my-24">
-            <Tabs.Group className="font-jost ">
-              <Tabs.Item title="Burning Mining" className="text-orange-500">
+            <Tabs.Group
+              aria-label="Full width tabs"
+              style="default"
+              className="font-jost  "
+            >
+              <Tabs.Item title="Burning Mining" class="text-orange-500 text-lg">
                 <div className="max-w-screen-xl mx-auto font-jost m-24 lg:w-11/12 rounded-2xl border border-orange-500 bg-gradient-to-b from-orange-950 to-neutral-950">
                   <div className="p-8 text-slate-50 text-3xl">
                     <p>Burning Mining Statistics</p>
